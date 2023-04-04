@@ -35,6 +35,7 @@ There are no settings for now. If you have ideas, let me know with an issue!
 ## Planned features
 
 - A new setting to let users define a regex to search in the copied code a filename to use
+- Unit/Integration tests
 
 ## Known Issues
 
@@ -45,3 +46,7 @@ None for now. Please let me know if you encounter some!
 ### 0.0.1
 
 First release, this is my first vscode extension so I can't say this is stable.
+
+### 0.0.2
+
+Some fixed and additions to the Readme
