@@ -1,71 +1,43 @@
 # vscode-pastinator
 
-A WIP productivity plugin for vscode that creates a new file when you paste code on the file explorer
+A **WIP** productivity plugin for vscode that creates a new file when you paste code on the file explorer.
 
-## Features
+Let's be honest, we all copy and paste code from stackoverflow. So let's do it the fastest way possible!
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Inspired by IntelliJ. It has this feature and it evens read the class name to automaticly name the file.
 
-For example if there is an image subfolder under your extension project workspace:
+This is my first extension so if you have issues, please create an issue and
 
-\!\[feature X\]\(images/feature-x.png\)
+## How to use
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Simply copy some code from anywhere. In this example, in dome documentation.
+In vscode, simply select a file or folder in the explorer and you can either:
 
-## Requirements
+1. CTRL+V
+1. Use the context menu
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Then, enter the wanted filename for this file. And there it is! Your copied file all ready in a single file.
+
+![example](docs/images/example.gif)
+
+### Subfolder creation
+
+If you want to put the file in `/some_folder/nested_folder/` but `nested_folder` does not exists, you can enter `nested_folder/new_file.ext` and the extension will create that folder for you.
+
+## Compatibility
+
+This extension does not analyse any code, so this should work with any language.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-- `myExtension.enable`: Enable/disable this extension.
-- `myExtension.thing`: Set to `blah` to do something.
+There are no settings for now. If you have ideas, let me know with an issue!
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None for now. Please let me know if you encounter some!
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+First release, this is my first vscode extension so I can't say this is stable.
