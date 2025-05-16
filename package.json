@@ -2,7 +2,7 @@
   "name": "pastinator",
   "displayName": "pastinator",
   "description": "A productivity plugin that creates a new file when you paste on the file explorer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "m-arioux"
   },
