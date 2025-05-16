@@ -10,7 +10,7 @@ This is my first extension so if you have issues, please create an issue on Gith
 
 ## How to use
 
-Simply copy some code from anywhere. In this example, in dome documentation.
+Simply copy some code from anywhere. In this example, in some documentation.
 In vscode, simply select a file or folder in the explorer and you can either:
 
 1. CTRL+V
