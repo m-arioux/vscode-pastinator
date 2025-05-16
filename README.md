@@ -6,7 +6,7 @@ Let's be honest, we all copy and paste code from stackoverflow. So let's do it t
 
 Inspired by IntelliJ. It has this feature and it evens read the class name to automaticly name the file.
 
-This is my first extension so if you have issues, please create an issue and
+This is my first extension so if you have issues, please create an issue on Github!
 
 ## How to use
 
@@ -31,6 +31,10 @@ This extension does not analyse any code, so this should work with any language.
 ## Extension Settings
 
 There are no settings for now. If you have ideas, let me know with an issue!
+
+## Planned features
+
+- A new setting to let users define a regex to search in the copied code a filename to use
 
 ## Known Issues
 
