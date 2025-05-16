@@ -50,3 +50,7 @@ First release, this is my first vscode extension so I can't say this is stable.
 ### 0.0.2
 
 Some fixed and additions to the Readme
+
+### 0.0.3
+
+Resolved issue #001 (CTRL+V)

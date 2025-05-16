@@ -22,3 +22,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Readme errors
+
+## [0.0.3] - 2023-04-05
+
+### Fixed
+
+- CTRL+V is now working again (#001)

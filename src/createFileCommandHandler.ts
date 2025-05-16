@@ -4,7 +4,9 @@ import { uriExists } from "./infrastructure/uriExists";
 import { CreateFileCommand } from "./createFileCommand.model";
 import { createFileAndParentFolders } from "./infrastructure/createFileAndParentFolders";
 
-export async function createFileCommandHandler(command: CreateFileCommand) {
+export async function createFileCommandHandler(
+  command: CreateFileCommand | undefined
+) {
   const clipboardContent = await vscode.env.clipboard.readText();
 
   if (!!!clipboardContent) {
@@ -12,7 +14,7 @@ export async function createFileCommandHandler(command: CreateFileCommand) {
   }
 
   const selectedFolder = await findSelectedFolder(
-    command.selectedElementInExplorer,
+    command?.selectedElementInExplorer,
     vscode.window.activeTextEditor?.document.fileName
   );
 
